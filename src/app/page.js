@@ -4,7 +4,6 @@ import Hero from "@/Components/Hero";
 const Home = () => {
   return (
     <>
-      <Header />
       <Hero />
       <Pricing />
     </>

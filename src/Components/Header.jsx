@@ -1,17 +1,26 @@
 import React from "react";
-
+import Link from "next/link";
 const Header = () => {
   return (
     <>
       <nav className="flex justify-between items-center pl-4 pr-4 p-5 bg-blue-600 text-white">
         <div>
-          <h2>Pric.</h2>
+          <h2>
+            {" "}
+            <Link href="/">Pric.</Link>
+          </h2>
         </div>
         <div>
           <ul className="flex gap-5">
-            <li>Contact</li>
-            <li>About us</li>
-            <li>Register</li>
+            <li>
+              <Link href="/contact">Contact</Link>
+            </li>
+            <li>
+              <Link href="/aboutus">About us</Link>
+            </li>
+            <li>
+              <Link href="/register">Register</Link>
+            </li>
           </ul>
         </div>
       </nav>

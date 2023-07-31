@@ -4,7 +4,6 @@ import Form from "@/Components/Form";
 const page = () => {
   return (
     <>
-      <Header />
       <Form />
     </>
   );
