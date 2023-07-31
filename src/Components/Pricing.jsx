@@ -2,7 +2,7 @@ import React from "react";
 const Pricing = () => {
   return (
     <>
-      <main className="lg:flex-row gap-4 justify-evenly mt-16 flex flex-col ">
+      <main className="lg:flex-row gap-4 justify-evenly mt-16 flex flex-col mb-48">
         <div className=" flex flex-col gap-6 border border-blue-600 rounded-lg  p-6 items-center">
           <div className="flex flex-col gap-2">
             <img
